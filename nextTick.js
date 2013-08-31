@@ -11,7 +11,7 @@ var calls = [];
 
 async.nextTick(function() {
     calls.push('two');
-});x
+});
 
 calls.push('one');
 
